@@ -5,7 +5,7 @@ import smtplib
 smtpObj = smtplib.SMTP('smtp.gmail.com')
 smtpObj.ehlo()
 smtpObj.starttls()
-smtpObj.login('abdielhmelendez@gmail.com', 'hilltop123')
-smtpObj.sendmail('abdielhmelendez@gmail.com', 'abdielhmelendez@gmail.com'
+smtpObj.login('xxxxxxxx@gmail.com', 'xxxxxxx')
+smtpObj.sendmail('xxxxxxx@gmail.com', 'xxxxxxxx@gmail.com'
   , 'Subject: So long.')
 smtpObj.quit()
